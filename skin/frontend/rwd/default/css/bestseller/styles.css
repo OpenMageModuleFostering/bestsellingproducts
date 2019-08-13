@@ -1,0 +1,73 @@
+/**
+ * Virtina
+ * @package    Virtina_Bestseller
+ * @copyright  Copyright (c) 2015-2016 Virtina. (http://www.virtina.com)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
+.slick-track .product-info .product-name{
+	text-align : center;
+}
+.slick-track .product-info .price-box {
+	text-align : center;
+}
+.bestseller .widget-products .product-image { 
+	height:auto !important; 
+}
+.widget-new-products .widget-products .slick-slider .slick-arrow {
+    cursor: pointer;
+    float: left;
+    position: relative;
+    top: 70px;
+}
+.widget-new-products .widget-products .slick-slider .slick-list {
+    float: left;
+    overflow: hidden;
+    width: 95%;
+}
+.bestseller .widget-products ul{
+	list-style : outside none none !important;
+}
+
+@media only screen and (max-width: 985px) {
+.widget-new-products .widget-products .slick-slider .slick-list {
+    width: 92%;
+}
+.widget-new-products .widget-products .slick-slider .slick-arrow {
+    top: 55px;
+}
+}
+@media only screen and (max-width: 719px) {
+.widget-new-products .widget-products .slick-slider .slick-list {
+    width: 90%;
+}
+}
+@media only screen and (max-width: 719px) {
+.widget-new-products .widget-products .slick-slider .slick-list {
+    width: 86%;
+}
+}
+@media only screen and (max-width: 479px) {
+.bestseller .widget-products .products-grid .product-info{
+	padding-bottom: 5px;
+}
+}
+@media only screen and (min-width: 770px) {
+.bestseller .widget-products .products-grid li.last_6 {
+    display: none;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 769px) {
+.bestseller .widget-products .products-grid li.last_4 {
+    display: none;
+}
+}
+@media only screen and (max-width: 479px) {
+.bestseller .widget-products .products-grid li.last_3 {
+    display: none;
+}
+.bestseller .widget-products .products-grid li.last_5 {
+    display: none;
+}
+}
+
