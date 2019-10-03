@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/BestSellingProducts",
+    "name": "OpenMageModuleFostering\/BestSellingProducts",
     "type": "magento-module",
     "license": "Open-Software-License",
     "homepage": "",
     "description": "Extension to display BEST SELLING products of  your Magento website.",
     "authors": [
-    {
-        "name": "Virtina",
-        "email": "gigijk@virtina.com"
-    }
-],
+        {
+            "name": "Virtina",
+            "email": "gigijk@virtina.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
